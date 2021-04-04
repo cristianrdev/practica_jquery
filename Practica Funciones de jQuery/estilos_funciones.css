@@ -1,0 +1,60 @@
+/* *{
+    outline: 1px dotted red;
+} */
+
+h1,
+p,
+button {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  width: 500px;
+  margin: 0px auto;
+}
+
+button {
+  padding: 5px 5px 5px 5px;
+  border: 0.5px solid grey;
+  height: 30px;
+}
+
+.seccion {
+  width: 500px
+  border-bottom: 3px solid grey;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.seccion-derecha {
+  
+  display: flex;
+  justify-content: space-around;
+}
+
+.titulocentrado {
+  width: 100%;
+
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+/* Css modificable con jQuery */
+
+.red {
+  background-color: red;
+}
+
+
+.bob_esponja{
+  display: flex;
+  justify-content: center;
+}
+
+.bob_esponja img{
+  width: 100px;
+
+}
+
